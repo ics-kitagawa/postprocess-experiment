@@ -44,7 +44,7 @@ export const Scene = () => {
   const { effect } = useControls("Effect", {
     effect: {
       options: effectOptions,
-      value: "naturalLight",
+      value: "light",
     },
   });
 
